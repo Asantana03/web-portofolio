@@ -37,7 +37,6 @@
       <div class="header_section">
          <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-               <div class="logo"><a href="index.html"><img src="images/logo.png"></a></div>
                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                <span class="navbar-toggler-icon"></span>
                </button>
@@ -47,16 +46,18 @@
                         <a class="nav-link" href="index.html">Home</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="index.html">About</a>
+                        <a class="nav-link" href="#biodata">Biodata</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="index.html">Portfolio</a>
+                        <a class="nav-link" href="#portfolio">Portofolio</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="index.html">Contact</a>
+                        <a class="nav-link" href="#skill">Skill</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
                      </li>
                   </ul>
-
                </div>
             </nav>
          </div>
@@ -97,7 +98,7 @@
          <div class="container">
             <div class="row">
                <div class="col-sm-12">
-                  <h1 class="services_taital"><span class="portfolio_taital_1">Biodata</span></h1>
+                  <h1 class="services_taital" id="biodata"><span class="portfolio_taital_1">Biodata</span></h1>
                </div>
             </div>
          </div>
@@ -169,7 +170,7 @@
                      </div>
                   </div>
                </div>
-               <div class="readmore_bt"><a href="#">Read More</a></div>
+               <div class="readmore_bt"><a href="#biodata">Read More</a></div>
             </div>
          </div>
       </div>
@@ -180,72 +181,34 @@
          <div class="container">
             <div class="row">
                <div class="col-sm-12">
-                  <h1 class="portfolio_taital"><span class="portfolio_taital_1">Portfolio</span></h1>
+                  <h1 class="portfolio_taital" id="portfolio"><span class="portfolio_taital_1">Portfolio</span></h1>
                </div>
             </div>
-            <div class="portfolio_section">
-               <div class="portfolio_section_2">
-                  <div class="row">
-                     <div class="col-md-8">
-                        <div class="container_main">
-                           <img src="images/img-1.png" alt="" class="image">
-                           <div class="overlay">
-                              <div class="text">
-                                 <div class="btn_main">
-                                    <div class="buy_bt"><a href="#">See More</a></div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-md-4">
-                        <div class="container_main">
-                           <img src="images/img-2.png" alt="" class="image">
-                           <div class="overlay">
-                              <div class="text">
-                                 <div class="btn_main">
-                                    <div class="buy_bt"><a href="#">See More</a></div>
-                                 </div>
+
+            <!-- 2 Gambar Besar di Atas -->
+            <div class="portfolio_section_2">
+               <div class="row">
+                  <div class="col-md-8">
+                     <div class="container_main">
+                        <img src="images/img-1.png" alt="" class="image project_large">
+                        <div class="project_title">Judul Karya 1</div>
+                        <div class="overlay">
+                           <div class="text">
+                              <div class="btn_main">
+                                 <div class="buy_bt"><a href="#">See More</a></div>
                               </div>
                            </div>
                         </div>
                      </div>
                   </div>
-               </div>
-               <div class="portfolio_section_2">
-                  <div class="row">
-                     <div class="col-md-4">
-                        <div class="container_main">
-                           <img src="images/img-3.png" alt="" class="image">
-                           <div class="overlay">
-                              <div class="text">
-                                 <div class="btn_main">
-                                    <div class="buy_bt"><a href="#">See More</a></div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-md-4">
-                        <div class="container_main">
-                           <img src="images/img-4.png" alt="" class="image">
-                           <div class="overlay">
-                              <div class="text">
-                                 <div class="btn_main">
-                                    <div class="buy_bt"><a href="#">See More</a></div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-md-4">
-                        <div class="container_main">
-                           <img src="images/img-5.png" alt="" class="image">
-                           <div class="overlay">
-                              <div class="text">
-                                 <div class="btn_main">
-                                    <div class="buy_bt"><a href="#">See More</a></div>
-                                 </div>
+                  <div class="col-md-4">
+                     <div class="container_main">
+                        <img src="images/img-1.png" alt="" class="image project_large">
+                        <div class="project_title">Judul Karya 2</div>
+                        <div class="overlay">
+                           <div class="text">
+                              <div class="btn_main">
+                                 <div class="buy_bt"><a href="#">See More</a></div>
                               </div>
                            </div>
                         </div>
@@ -253,54 +216,84 @@
                   </div>
                </div>
             </div>
-            <div class="seemore_bt"><a href="#">See More</a></div>
+
+            <!-- 3 Gambar Kecil di Bawah -->
+            <div class="portfolio_section_2">
+               <div class="row">
+                  <div class="col-md-4">
+                     <div class="container_main">
+                        <img src="images/img-1.png" alt="" class="image project_small">
+                        <div class="project_title">Judul Karya 3</div>
+                        <div class="overlay">
+                           <div class="text">
+                              <div class="btn_main">
+                                 <div class="buy_bt"><a href="#">See More</a></div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="container_main">
+                        <img src="images/img-1.png" alt="" class="image project_small">
+                        <div class="project_title">Judul Karya 4</div>
+                        <div class="overlay">
+                           <div class="text">
+                              <div class="btn_main">
+                                 <div class="buy_bt"><a href="#">See More</a></div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="container_main">
+                        <img src="images/img-1.png" alt="" class="image project_small">
+                        <div class="project_title">Judul Karya 5</div>
+                        <div class="overlay">
+                           <div class="text">
+                              <div class="btn_main">
+                                 <div class="buy_bt"><a href="#">See More</a></div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
          </div>
       </div>
       <!-- portfolio section end -->
       <!-- blog section start -->
-      <div class="blog_section layout_padding">
-         <div class="container">
+      <div class="blog_section layout_padding text-center">
+         <div class="container mx-auto">
             <div class="row">
                <div class="col-sm-12">
-                  <h1 class="blog_taital"><span class="blog_taital_1">Blog</span></h1>
-                  <p class="blog_text">upidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                  <h1 class="blog_taital" id="skill"><span class="blog_taital_1">Skill</span></h1>
                </div>
             </div>
          </div>
-         <div class="blog_section_2">
-            <div class="container">
-               <div class="row">
+         <div class="blog_section_2 text-center">
+            <div class="container mx-auto">
+               <div class="row justify-content-center">
                   <div class="col-md-4">
                      <div class="blog_box">
                         <div class="blog_img">
-                           <h4 class="date_text">Jun 05</h4>
-                           <h4 class="prep_text">Veniam, quis nostrud </h4>
+                           <h4 class="prep_text">Hardskill </h4>
                         </div>
-                        <p class="lorem_text">elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
+                        <p class="lorem_text">Jurnalistik, Karya Ilmiah, Public Speaking, Marketing, Desain Grafis, Sastra, Legal Capacity, Legal Competence, Legal Understanding, Legal Expertise</p>
                      </div>
                   </div>
                   <div class="col-md-4">
                      <div class="blog_box">
                         <div class="blog_img_2">
-                           <h4 class="date_text">Jun 05</h4>
-                           <h4 class="prep_text">Veniam, quis nostrud </h4>
+                           <h4 class="prep_text">Softskill </h4>
                         </div>
-                        <p class="lorem_text">elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
-                     </div>
-                  </div>
-                  <div class="col-md-4">
-                     <div class="blog_box">
-                        <div class="blog_box_3">
-                           <div class="blog_img">
-                              <h4 class="date_text">Jun 05</h4>
-                              <h4 class="prep_text">Veniam, quis nostrud </h4>
-                           </div>
-                           <p class="lorem_text">elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
-                        </div>
+                        <p class="lorem_text">Komunikasi yang Baik, Sosial yang Baik, Dapat Bekerjasama, Literasi yang Baik, Mengelola Informasi dengan Baik, Loyalitas, Pemahaman Agama yang Bagus</p>
                      </div>
                   </div>
                </div>
-               <div class="readmore_bt_1"><a href="#">Read More</a></div>
+               <div class="readmore_bt_1 mt-4"><a href="#skill">Read More</a></div>
             </div>
          </div>
       </div>
@@ -310,7 +303,7 @@
          <div class="container">
             <div class="row">
                <div class="col-sm-12">
-                  <h1 class="contact_taital">My <span class="contact_taital_1">Contact</span></h1>
+                  <h1 class="contact_taital" id="contact">My <span class="contact_taital_1">Contact</span></h1>
                </div>
             </div>
                <div class="contact_section_2">
